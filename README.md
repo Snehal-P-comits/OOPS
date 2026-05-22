@@ -1,26 +1,24 @@
 # OOPS Examples
 
-This folder contains simple Python examples for object-oriented programming (OOP) and a couple of small practice scripts.
+Small, readable Python examples demonstrating core Object-Oriented Programming (OOP) concepts.
 
-## What is happening here
+## Project summary
 
-These files show basic OOP ideas in Python:
+This folder contains focused example scripts that teach one idea at a time (classes, encapsulation, inheritance, polymorphism, abstract base classes) plus small utility/test scripts to practice concepts.
 
-- `ex1.py`: A `Character` class with `name`, `health`, and `attack_power`. It shows how to make an object, call methods like `attack`, and print the character stats.
-- `ex2.py`: A `BankAccount` class that uses a private balance (`__balance`). It shows encapsulation by using methods like `get_balance`, `deposit`, `withdraw`, and `transfer` instead of touching internal data directly.
-- `ex3.py`: Inheritance and subclass behavior. A `Character` parent class is extended by `Knight`, `Wizard`, and `Witch`. It shows how child classes reuse parent code, add new features, and override methods.
-- `ex4.py`: Polymorphism and duck typing. `Knight`, `Wizard`, and `Archer` all inherit from `Character`, but each has its own `attack` and `speak` behavior. The code runs them in a loop to demonstrate that they can be treated the same way while acting differently.
-- `ex5.py`: Abstract classes using `ABC` and `@abstractmethod`. It defines a `PaymentMethod` interface and two concrete implementations: `CreditCardPayment` and `UPIPayment`.
+## Files and purpose
 
-## Other example scripts
+- `ex1.py`: Simple `Character` class showing attributes, methods, and interactions.
+- `ex2.py`: `BankAccount` demonstrating encapsulation and private attributes.
+- `ex3.py`: Inheritance examples (`Knight`, `Wizard`, `Witch`) and method overriding.
+- `ex4.py`: Polymorphism and duck typing; multiple character types used interchangeably.
+- `ex5.py`: Abstract base class (`PaymentMethod`) with concrete implementations.
+- `bucket.py`: (utility) small helper functions used in exercises (if present).
+- `test.py`, `test2.py`, `test3.py`: Minimal scripts that demonstrate or test individual ideas.
 
-- `test.py`: A simple test that finds a unique number in a list using XOR. The comments compare a slow O(n²) approach with the faster O(n) solution.
-- `test2.py`: A tiny class inheritance example showing how `B` extends `A` and how the constructor works with `super()`.
-- `test3.py`: A small dictionary lookup example that maps a number input to a letter key in `alphabet_numbers`.
+## How to run
 
-## How to use
-
-Run any file with Python, for example:
+Use your Python interpreter (3.8+ recommended). Examples:
 
 ```bash
 python ex1.py

@@ -1,3 +1,4 @@
+# RUN THE CODE CUZ U UNDERSTAND... DONT UNDERSTAND IT CUZ IT RAN
 # OOPS Examples
 
 Small, readable Python examples demonstrating core Object-Oriented Programming (OOP) concepts.
@@ -13,7 +14,7 @@ This folder contains focused example scripts that teach one idea at a time (clas
 - `ex3.py`: Inheritance examples (`Knight`, `Wizard`, `Witch`) and method overriding.
 - `ex4.py`: Polymorphism and duck typing; multiple character types used interchangeably.
 - `ex5.py`: Abstract base class (`PaymentMethod`) with concrete implementations.
-- `bucket.py`: (utility) small helper functions used in exercises (if present).
+- `bucket.py`: Simple shape classes (`circle`, `square`, `triangle`) and a `bucket` container class that stores counts of shapes by type. Includes example usage at the bottom showing how to add shapes and print the bucket contents.
 - `test.py`, `test2.py`, `test3.py`: Minimal scripts that demonstrate or test individual ideas.
 
 ## How to run

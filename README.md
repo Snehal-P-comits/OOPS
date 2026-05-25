@@ -16,6 +16,7 @@ This folder contains focused example scripts that teach one idea at a time (clas
 - `ex5.py`: Abstract base class (`PaymentMethod`) with concrete implementations.
 - `bucket.py`: Simple shape classes (`circle`, `square`, `triangle`) and a `bucket` container class that stores counts of shapes by type. Includes example usage at the bottom showing how to add shapes and print the bucket contents.
 - `test.py`, `test2.py`, `test3.py`: Minimal scripts that demonstrate or test individual ideas.
+- `property.py`: Examples demonstrating Python @property decorator for controlled attribute access using the example of a videogame charecter's health
 
 ## How to run
 

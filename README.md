@@ -18,7 +18,7 @@ This folder contains focused example scripts that teach one idea at a time (clas
 - `test.py`, `test2.py`, `test3.py`: Minimal scripts that demonstrate or test individual ideas.
 - `property.py`: Examples demonstrating Python @property decorator for controlled attribute access using the example of a videogame charecter's health
 - `magic.py`: Examples demonstrating Python magic methods or dunder methods for how custom classes should behave with built-in functions and operators using an example of a videogame inventory
-
+- `static-and-class.py`: Examples demonstrating class methods and static methods showcasing how and why we use them
 ## How to run
 
 Use your Python interpreter (3.8+ recommended). Examples:
